@@ -1,0 +1,7 @@
+interface:
+  display_name: "数学建模工作台"
+  short_description: "用可复现流程完成数学建模与 LaTeX 论文"
+  default_prompt: "Use $math-modeling to analyze this math-modeling problem and produce a verified LaTeX paper project."
+
+policy:
+  allow_implicit_invocation: true
