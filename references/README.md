@@ -22,6 +22,7 @@
 | 任务 | 读取 |
 |---|---|
 | 选模型 | `roles/建模手/references/建模设计理论.md` |
+| 反演、参数估计、标定或复杂度选择 | [可辨识性与复杂度控制](可辨识性与复杂度控制.md)，按任务与阶段加载 |
 | 查具体算法 | `算法索引.md`，再读取一个匹配的 `../assets/*.md` |
 | Python/MATLAB 实现 | `roles/编程手/references/工作流程.md` |
 | MATLAB 工具箱与出图 | `roles/编程手/references/MATLAB规范.md` |

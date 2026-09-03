@@ -48,6 +48,7 @@ description: 数学建模的 Python 或 MATLAB 实现、运行、表格输出、
 | 情形 | 读取 |
 |---|---|
 | 开始实现 | `references/工作流程.md` |
+| 反演、参数估计、标定或复杂度选择 | [可辨识性与复杂度控制](../../../references/可辨识性与复杂度控制.md) 的 P1、P2 与返修边界 |
 | 使用 MATLAB | `references/MATLAB规范.md` |
 | 画图 | `tools/figure/SKILL.md` |
 | 不确定用什么图，或需审查指定图型 | `tools/figure/references/chart-types/chart_selection.md` |
@@ -57,4 +58,4 @@ description: 数学建模的 Python 或 MATLAB 实现、运行、表格输出、
 | 交付前 | `references/质检清单.md` |
 | 阶段内独立验收 | `../../../references/Subagent调度.md` |
 
-若实际运行证明模型公式、约束或参数定义冲突，停止通过改算法规避问题，把证据反馈给建模手。
+数值缩放、稳定求解器和合同允许的验证可由编程手处理。若需改变待估/固定参数、物理机制、先验、拟合数据范围或合同外判定标准，先携证据返回建模手更新合同并复验；不得以改算法掩盖不可辨识，或静默改变结果含义。
