@@ -53,7 +53,6 @@ math-modeling-skill-main/
 │   ├── 05-统计分析与数据处理算法说明.md
 │   ├── 06-综合类算法说明.md
 │   └── 07-机器学习算法说明.md
-└── dsh-plugin/                       # DSH框架集成副本
 ```
 
 ---
